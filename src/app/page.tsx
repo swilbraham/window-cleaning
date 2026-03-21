@@ -7,10 +7,12 @@ import ServiceAreas from "@/components/ServiceAreas";
 import Testimonials from "@/components/Testimonials";
 import About from "@/components/About";
 import QuoteForm from "@/components/QuoteForm";
+import FAQ from "@/components/FAQ";
 import GoCardless from "@/components/GoCardless";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
 import StickyCallCTA from "@/components/StickyCallCTA";
+import Chatbot from "@/components/Chatbot";
 
 export default function Home() {
   return (
@@ -25,11 +27,13 @@ export default function Home() {
         <Testimonials />
         <About />
         <QuoteForm />
+        <FAQ />
         <GoCardless />
         <FinalCTA />
       </main>
       <Footer />
       <StickyCallCTA />
+      <Chatbot />
     </>
   );
 }
