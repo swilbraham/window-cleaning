@@ -52,7 +52,7 @@ export default function LandingForm() {
                   "Same-day response guaranteed",
                   "Traditional & water-fed pole cleaning",
                   "Domestic and commercial properties",
-                  "Easy GoCardless direct debit payments",
+                  "Pay by cash or bank transfer after the clean",
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3 text-slate-300">
                     <svg className="h-5 w-5 shrink-0 text-green-400" fill="currentColor" viewBox="0 0 20 20">

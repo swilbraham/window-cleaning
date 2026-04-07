@@ -76,7 +76,7 @@ export default function QuoteForm() {
                   <div>
                     <h3 className="text-lg font-bold text-white">Easy Payment</h3>
                     <p className="text-slate-400">
-                      Set up hassle-free payments with GoCardless Direct Debit.
+                      Pay by cash or bank transfer after the clean is completed.
                     </p>
                   </div>
                 </div>

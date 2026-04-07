@@ -28,7 +28,7 @@ const testimonials = [
   {
     name: "David R.",
     location: "Warrington",
-    text: "Fantastic service from start to finish. Got a quote the same day I called, and they were out cleaning the following week. The GoCardless payment system is really convenient too.",
+    text: "Fantastic service from start to finish. Got a quote the same day I called, and they were out cleaning the following week. Easy to pay by bank transfer after the job too.",
     rating: 5,
     type: "Domestic",
   },

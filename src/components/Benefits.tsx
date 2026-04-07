@@ -55,7 +55,7 @@ const benefits = [
       </svg>
     ),
     title: "Affordable & Transparent Pricing",
-    description: "Competitive rates with no hidden fees. Pay easily by GoCardless direct debit — no cash hassle.",
+    description: "Competitive rates with no hidden fees. Pay by cash or bank transfer after the clean is completed.",
   },
 ];
 

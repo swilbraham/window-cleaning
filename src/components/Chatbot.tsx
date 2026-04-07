@@ -29,8 +29,8 @@ function getBotResponse(input: string): string {
   if (lower.match(/price|cost|how much|charge|rate|expensive|cheap|quote/)) {
     return "Every property is different, so we provide free, no-obligation quotes tailored to your home or business. Just fill in the quote form on this page or call us on 07724 564683 and we'll get back to you the same day!";
   }
-  if (lower.match(/pay|payment|gocardless|direct debit|cash|invoice|bank/)) {
-    return "We use GoCardless for easy, hassle-free Direct Debit payments. Once it's set up, your payment is taken automatically after each clean — no cash needed, no invoices to chase. Simple and secure!";
+  if (lower.match(/pay|payment|cash|invoice|bank/)) {
+    return "We accept cash or bank transfer after the clean is completed. Simple and straightforward — no upfront payment needed.";
   }
   if (lower.match(/frame|sill|upvc|pvc/)) {
     return "Yes! We clean frames and sills as part of every visit at no extra charge. Our pure water system cleans the entire window unit, not just the glass.";

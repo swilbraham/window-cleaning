@@ -33,7 +33,7 @@ const faqs = [
   {
     question: "How do I pay?",
     answer:
-      "We use GoCardless for hassle-free Direct Debit payments. Once set up, your payment is taken automatically after each clean — no cash, no invoices, no chasing. It's simple, secure, and saves you time.",
+      "We accept cash or bank transfer after the clean is completed. Simple and straightforward — no upfront payment needed.",
   },
   {
     question: "What if it rains after my windows are cleaned?",

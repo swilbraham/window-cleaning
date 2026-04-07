@@ -40,7 +40,7 @@ const steps = [
     number: "04",
     title: "Easy Payment",
     description:
-      "Pay effortlessly via GoCardless direct debit. No chasing, no cash, no fuss — just automatic payments after each clean.",
+      "Pay by cash or bank transfer after the clean is completed. Simple and straightforward — no upfront payment needed.",
     icon: (
       <svg className="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
