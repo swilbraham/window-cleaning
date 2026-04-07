@@ -14,14 +14,14 @@ const testimonials = [
   {
     name: "James K.",
     location: "Chester",
-    text: "We use Crystal Clear for our office building and they do an outstanding job every time. The water-fed pole system leaves the windows sparkling and they're very professional to deal with.",
+    text: "We use Fresh For Less for our office building and they do an outstanding job every time. The water-fed pole system leaves the windows sparkling and they're very professional to deal with.",
     rating: 5,
     type: "Commercial",
   },
   {
     name: "Linda T.",
     location: "Heswall, Wirral",
-    text: "After being let down by two previous window cleaners, finding Crystal Clear was a relief. Reliable, thorough, and great value for money. My conservatory has never looked better!",
+    text: "After being let down by two previous window cleaners, finding Fresh For Less was a relief. Reliable, thorough, and great value for money. My conservatory has never looked better!",
     rating: 5,
     type: "Domestic",
   },
@@ -35,7 +35,7 @@ const testimonials = [
   {
     name: "Mark S.",
     location: "St Helens",
-    text: "We manage several commercial properties and Crystal Clear handles all the window cleaning. They're flexible, reliable, and always deliver excellent results. Highly recommended for business owners.",
+    text: "We manage several commercial properties and Fresh For Less handles all the window cleaning. They're flexible, reliable, and always deliver excellent results. Highly recommended for business owners.",
     rating: 5,
     type: "Commercial",
   },

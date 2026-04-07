@@ -121,7 +121,7 @@ export default function QuoteForm() {
                 className="rounded-2xl bg-white p-8 shadow-2xl sm:p-10"
               >
                 {/* FormSubmit configuration */}
-                <input type="hidden" name="_subject" value="New Quote Request - Crystal Clear Window Cleaning" />
+                <input type="hidden" name="_subject" value="New Quote Request - Fresh For Less Window Cleaning" />
                 <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" value="table" />
 

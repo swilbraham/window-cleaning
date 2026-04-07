@@ -38,16 +38,14 @@ export default function Navbar() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between md:h-20">
             <a href="#" className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-lg">
-                CC
-              </div>
+              <img src="/logo.png" alt="Fresh For Less Window Cleaning" className="h-12 w-12 rounded-lg object-contain" />
               <div className="flex flex-col">
                 <span
                   className={`text-sm font-bold leading-tight transition-colors ${
                     scrolled ? "text-slate-900" : "text-white"
                   }`}
                 >
-                  Crystal Clear
+                  Fresh For Less
                 </span>
                 <span
                   className={`text-xs leading-tight transition-colors ${

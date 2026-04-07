@@ -42,7 +42,7 @@ export default function About() {
                 Your Local, Trusted Window Cleaning Experts
               </h2>
               <p className="mt-4 text-lg text-slate-600 leading-relaxed">
-                Crystal Clear Window Cleaning has been providing exceptional window
+                Fresh For Less Window Cleaning has been providing exceptional window
                 cleaning services across Merseyside and Cheshire for over a decade.
                 We&apos;re a local, family-run business that takes pride in delivering
                 outstanding results every single time.

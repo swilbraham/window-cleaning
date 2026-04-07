@@ -10,12 +10,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600 text-white font-bold text-lg">
-                CC
-              </div>
+              <img src="/logo.png" alt="Fresh For Less Window Cleaning" className="h-12 w-12 rounded-lg object-contain" />
               <div className="flex flex-col">
                 <span className="text-sm font-bold text-white leading-tight">
-                  Crystal Clear
+                  Fresh For Less
                 </span>
                 <span className="text-xs text-blue-400 leading-tight">
                   Window Cleaning
@@ -133,7 +131,7 @@ export default function Footer() {
         <div className="mt-12 border-t border-slate-800 pt-8">
           <div className="flex flex-col items-center justify-between gap-4 text-xs sm:flex-row">
             <p>
-              &copy; {currentYear} Crystal Clear Window Cleaning. All rights
+              &copy; {currentYear} Fresh For Less Window Cleaning. All rights
               reserved.
             </p>
             <div className="flex items-center gap-4">

@@ -16,7 +16,7 @@ const testimonials = [
     location: "Chester",
   },
   {
-    text: "After being let down by others, Crystal Clear was a relief. Reliable and great value.",
+    text: "After being let down by others, Fresh For Less was a relief. Reliable and great value.",
     name: "Linda T.",
     location: "Wirral",
   },

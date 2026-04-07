@@ -68,7 +68,7 @@ export default function Benefits() {
             Why Choose Us
           </span>
           <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            The Crystal Clear Difference
+            The Fresh For Less Difference
           </h2>
           <p className="mt-4 text-lg text-slate-600">
             We don&apos;t just clean windows — we deliver a premium service that keeps your property looking its best, all year round.

@@ -18,7 +18,7 @@ export default function FinalCTA() {
           </h2>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-blue-100">
             Join hundreds of happy customers across Merseyside and Cheshire. Get
-            your free, no-obligation quote today and see the Crystal Clear
+            your free, no-obligation quote today and see the Fresh For Less
             difference for yourself.
           </p>
 

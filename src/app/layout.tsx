@@ -8,13 +8,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Crystal Clear Window Cleaning | Merseyside & Cheshire | Free Quotes",
+  title: "Fresh For Less Window Cleaning | Merseyside & Cheshire | Free Quotes",
   description:
     "Professional window cleaning across Merseyside & Cheshire. Traditional and water-fed pole cleaning for homes and businesses. Free quotes. Call 07724564683.",
   keywords:
     "window cleaning, Merseyside, Cheshire, Liverpool, Wirral, Chester, water fed pole, commercial window cleaning, domestic window cleaning",
   openGraph: {
-    title: "Crystal Clear Window Cleaning | Merseyside & Cheshire",
+    title: "Fresh For Less Window Cleaning | Merseyside & Cheshire",
     description:
       "Professional window cleaning for homes and businesses. Traditional & water-fed pole methods. Serving Merseyside & Cheshire.",
     type: "website",
