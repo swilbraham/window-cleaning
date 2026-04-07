@@ -84,6 +84,16 @@ export default function Navbar() {
                 <span>07724 564683</span>
               </a>
               <a
+                href="/pay"
+                className={`hidden rounded-full px-4 py-2 text-sm font-semibold transition-all sm:inline-flex ${
+                  scrolled
+                    ? "bg-slate-100 text-slate-700 hover:bg-slate-200"
+                    : "bg-white/15 text-white hover:bg-white/25"
+                }`}
+              >
+                Pay Now
+              </a>
+              <a
                 href="#quote"
                 className="rounded-full bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-blue-600/25 transition-all hover:bg-blue-700 hover:shadow-blue-600/40"
               >

@@ -1,0 +1,67 @@
+import { NextRequest, NextResponse } from "next/server";
+import Stripe from "stripe";
+
+export async function POST(req: NextRequest) {
+  const { paymentType, amount, address } = await req.json();
+
+  if (!paymentType || !address?.trim()) {
+    return NextResponse.json(
+      { error: "Payment type and address are required" },
+      { status: 400 }
+    );
+  }
+
+  const amountInPence =
+    paymentType === "booking_fee" ? 2000 : Math.round(Number(amount) * 100);
+
+  if (amountInPence < 2000) {
+    return NextResponse.json(
+      { error: "Minimum payment is £20.00" },
+      { status: 400 }
+    );
+  }
+
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!);
+
+  const lineItemName =
+    paymentType === "booking_fee"
+      ? "Booking Fee (deducted from final payment)"
+      : "Window Cleaning Payment";
+
+  const origin =
+    req.headers.get("origin") || "https://www.freshforlesswindowcleaning.com";
+
+  try {
+    const session = await stripe.checkout.sessions.create({
+      payment_method_types: ["card", "klarna"],
+      line_items: [
+        {
+          price_data: {
+            currency: "gbp",
+            product_data: {
+              name: lineItemName,
+              description: `Payment ref: ${address.trim()}`,
+            },
+            unit_amount: amountInPence,
+          },
+          quantity: 1,
+        },
+      ],
+      mode: "payment",
+      metadata: {
+        address: address.trim(),
+        payment_type: paymentType,
+      },
+      success_url: `${origin}/pay/success?type=${paymentType}`,
+      cancel_url: `${origin}/pay`,
+    });
+
+    return NextResponse.json({ url: session.url });
+  } catch (err) {
+    console.error("Stripe error:", (err as Error).message);
+    return NextResponse.json(
+      { error: "Failed to create checkout session" },
+      { status: 500 }
+    );
+  }
+}
